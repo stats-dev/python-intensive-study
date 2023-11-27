@@ -1,3 +1,4 @@
+import matplotlib.pyplot as plt
 # Build histogram with 5 bins
 plt.hist(life_exp, bins=5)
 
