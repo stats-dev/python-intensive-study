@@ -14,6 +14,10 @@ print(squares)
 examples = ["a","b","c","a","d","e","f"]
 print(len(examples))
 print(examples.index("b"))
-print(examples.sort()) # None 왜 None?
+print(examples.sort()) # None 왜 None? ['a', 'a', 'b', 'c', 'd', 'e', 'f']
 print(examples) # sort 후에 나와야 프린트됨.
 print(examples.count("a"))
+
+## reverse true
+examples.sort(reverse=True)
+print(examples) # ['f', 'e', 'd', 'c', 'b', 'a', 'a']
